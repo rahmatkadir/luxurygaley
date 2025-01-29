@@ -260,3 +260,24 @@ body.lightbox-active .navbar {
         margin-top: 10px;
     }
 }
+/* Download Button */
+.download-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: gold;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.download-button:hover {
+    background: #b8860b;
+}
+
